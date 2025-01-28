@@ -1,14 +1,14 @@
-import './ExploreContainer.css';
+import "./ExploreContainer.css";
+import { Alumno } from "../interfaces/types";
 
-interface ContainerProps { 
+interface ContainerProps {
+  alumnos: Alumno[];
 }
-
-
-
 
 const ExploreContainer: React.FC<ContainerProps> = () => {
   return (
-    <div id="container">
+    <div>
+        hola
     </div>
   );
 };
